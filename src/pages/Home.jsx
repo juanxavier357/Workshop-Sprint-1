@@ -26,7 +26,7 @@ function Home() {
       <div className="container__products">
         {products.map((card, index) => (
           <ProductCard
-            id={card.id}
+            id={card.id.toString()}
             image={card.image}
             title={card.title}
             key={index}

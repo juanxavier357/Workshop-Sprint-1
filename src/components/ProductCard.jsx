@@ -5,7 +5,7 @@ import "./ProductCard.scss"
 
 function ProductCard(props) {
 
-    const { id, image, title, price, description, category, rating_rate, rating_count } = props
+    const { id, image, title, price, description, category, rate, count } = props
 
     const navigate = useNavigate()
     let azar = Math.round(Math.random() + 1)
@@ -53,8 +53,9 @@ function ProductCard(props) {
                     <p>{description}</p>
                     <div className="content__card--info--small">
                         <p>{category}</p>
-                        <p>{rating_rate}</p>
-                        <p>{rating_count}</p>
+                        <p>{rate}</p>
+                        <p>{count}</p>
+                        
                     </div>
                 </div>
             </div>
@@ -63,14 +64,14 @@ function ProductCard(props) {
 }
 
 ProductCard.propTypes = {
-    id: PropTypes.number,
+    id: PropTypes.string,
     image: PropTypes.string,
     title: PropTypes.string,
     price: PropTypes.number,
     description: PropTypes.string,
     category: PropTypes.string,
-    rating_rate: PropTypes.number,
-    rating_count: PropTypes.number,
+    rate: PropTypes.number,
+    count: PropTypes.number,
 }
 
 export default ProductCard

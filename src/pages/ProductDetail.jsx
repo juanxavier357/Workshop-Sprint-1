@@ -5,43 +5,47 @@ import './ProductDetail.scss'
 
 function ProductDetail() {
 
-  const itemId = useParams().id
+  const { id } = useParams()
   const [card, setCard] = useState({})
+  const [newcard, setNewCard] = useState({})
 
   useEffect(() => {
     const fetchCards = async () => {
-      const url = `https://fakestoreapi.com/products/${itemId}`
-
+      const url = `https://fakestoreapi.com/products/${id}`
+  
       try {
         const response = await fetch(url)
         const data = await response.json()
         setCard(data)
+        setNewCard(data.rating)
       } catch (error) {
         console.log(error)
       }
     }
     fetchCards()
-  }, [itemId])
+  }, [id])
 
-  let prop1 = document.getElementById("cambiar");
-  prop1.style.display = "none";
+  useEffect(() => {
+    let prop1 = document.getElementById("cambiar");
+    prop1.style.display = "none";
 
-  let prop2 = document.getElementById("crecer");
-  prop2.style.height = "390px";
+    let prop2 = document.getElementById("crecer");
+    prop2.style.height = "390px";
+  })
+
 
   return (
     <>
-      <h2>Product Detail {itemId}</h2>
+      <h2>Product Detail {id}</h2>
       <div className="container__product">
         <ProductCard
-          id={card.id}
           image={card.image}
           title={card.title}
           price={card.price}
           description={card.description}
           category={card.category}
-          rating_rate={card.rate}
-          rating_count={card.count}
+          rate={newcard.rate}
+          count={newcard.count}
         />
       </div>
     </>
