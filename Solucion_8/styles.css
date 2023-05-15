@@ -1,0 +1,39 @@
+.c-section {
+    margin: 25px 60px 0 60px;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    color: white;
+    background-color: #121c2a;
+    border-top: 10px solid darkgray;
+}
+
+ul {    
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+li {
+    width: 44%;
+    margin: 0 0 20px 0;
+    padding: 30px;
+    background-color: ghostwhite;
+    transition: 0.1s;
+    overflow: hidden;
+}
+
+li:hover {
+    transform: scale(1.05);
+    border-bottom: 3px inset gainsboro;
+    border-right: 3px inset gainsboro;
+}
+
+p {
+    text-align: left;
+}
