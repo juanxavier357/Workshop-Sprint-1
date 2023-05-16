@@ -1,6 +1,6 @@
 # Workshop-Sprint-1
 
-# Make It Real - Character Card
+# Make It Real - Workshop
 This is a solution to the Workshop Sprint 1 project of the Make It Real course.
 
 ## Table of contents
