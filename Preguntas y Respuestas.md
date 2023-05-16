@@ -274,5 +274,4 @@ El uso del Virtual DOM ofrece varias ventajas:
 ## 8.	Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta. Imagen. 
   (Para mostrar los servicios debes usar CSS Flexbox o CSS Grid).
   
-  Ver Solución
-
+  [Carpeta de Solución] (https://github.com/juanxavier357/Workshop-Sprint-1/tree/master/Solucion_8)
