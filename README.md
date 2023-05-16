@@ -101,7 +101,7 @@ Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a
 
 **Vercel**
   
-![Workshop Sprint 1](https://workshop-sprint-1-alpha.vercel.app/)
+[Workshop Sprint 1](https://workshop-sprint-1-alpha.vercel.app/)
   
 ## My process
 
