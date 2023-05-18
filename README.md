@@ -19,7 +19,7 @@ This is a solution to the Workshop Sprint 1 project of the Make It Real course.
 ## Overview
 
 **The challenge**
-  El objetivo de ese taller es poner en práctica lo que has aprendido en el programa. Los temas que se cubrirán son: Scrum, Git, HTML y CSS, JavaScript y React.
+  El objetivo de este taller es poner en práctica lo que has aprendido en el programa. Los temas que se cubrirán son: Scrum, Git, HTML y CSS, JavaScript y React.
 
   La misión consta de dos partes: primero deberás construir un proyecto en React y después deberás responder una serie de preguntas. En el reporte de la misión deberás agregar el link al repositorio del proyecto y las respuestas a las preguntas.
   
